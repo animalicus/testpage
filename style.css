@@ -1,0 +1,87 @@
+@media screen and (orientation:portrait) {
+    #content{
+        grid-template-rows: 60% 40%;
+    }
+}
+@media screen and (orientation:landscape) {
+    #content{
+        grid-template-columns: 60% 40%;
+    }
+}
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+body{
+   
+}
+.wrap{
+    display: block;
+}
+#title{
+    display: inline-block;
+}
+#navi{
+    display: inline-block;
+    background-color: black;
+}
+#navi:active{
+    background-color: grey;
+}
+#navi svg{
+    fill:none;
+    stroke:white;
+    stroke-width: 3px;
+}
+#content{
+    display: grid;
+}
+#image{
+    background-color: lightgray;  
+    overflow: hidden;
+}
+#image svg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    height: 90vh;
+    transition: 0.3s;
+}
+#image svg  g{
+    opacity: 0;
+}
+#image svg g.off{
+    opacity: 0;
+    transition:  opacity 0.3s;
+}
+#image svg g.on{
+    opacity: 0.5;
+    transition:  opacity 0.3s;
+}
+#text{
+    display: block;
+    background-color: black;
+    color: white;
+}
+#cont{
+    display: inline-block;
+    background-color: lightgray;
+    color: black;
+    text-decoration: none;
+}
+#cont:active{
+     background-color: grey;
+}
+#label{
+    position: absolute;
+    background-color: black;
+    color: white;
+}
+#label.off{
+    opacity: 0;
+    transition:  opacity 0.3s;
+}
+#label.on{
+    opacity: 1;
+    transition:  opacity 0.3s;
+}
