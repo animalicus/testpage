@@ -1,0 +1,11 @@
+g{
+    opacity: 0;
+    fill:orange;
+    transition:  opacity 0.3s;
+}
+g.off{
+    opacity: 0;
+}
+g.on{
+    opacity: 0.5;
+}
