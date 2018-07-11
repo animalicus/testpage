@@ -2,10 +2,22 @@
     #content{
         grid-template-rows: 60% 40%;
     }
+     #image svg{
+        height: 50vh;
+    }
+    #img{
+        height: 50vh;
+    }
 }
 @media screen and (orientation:landscape) {
     #content{
         grid-template-columns: 60% 40%;
+    }
+    #image svg{
+        height: 95vh;
+    }
+    #img{
+        height: 95vh;
     }
 }
 html {
@@ -56,11 +68,7 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;  
-    height: 95vh;
     transition: 0.3s;
-}
-img{
-   height: 95vh;
 }
 #text{
     display: block;
