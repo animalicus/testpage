@@ -17,6 +17,14 @@ html {
 .wrap{
     display: block;
 }
+#open{
+    text-align: center;
+}
+#bar{
+    background-color: black;
+    display: block;
+    height: 50px;
+}
 #title{
     display: inline-block;
     font-size: xx-large;
@@ -48,14 +56,17 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;  
-    height: 105vh;
+    height: 95vh;
     transition: 0.3s;
+}
+img{
+   height: 95vh;
 }
 #text{
     display: block;
     background-color: black;
     color: white;
-    padding: 10px
+    padding: 30px
 }
 #name{
     font-size: xx-large;
