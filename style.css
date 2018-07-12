@@ -3,10 +3,10 @@
         grid-template-rows: 60% 40%;
     }
     #image svg{
-        height: 70vh;
+        height: 100vh;
     }
     img{
-        height: 70vh;
+        height: 100vh;
     }
     html{
         overflow-y: visible;
