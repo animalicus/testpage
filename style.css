@@ -11,6 +11,10 @@
     html{
         overflow-y: visible;
     }
+    #cont{
+    width: 140;
+    font-size: x-large;
+    }
 }
 @media screen and (orientation:landscape) {
     #content{
@@ -24,6 +28,10 @@
     }
     html{
         overflow-y: hidden;
+    }
+    #cont{
+    width: 70px;
+    font-size: medium;
     }
 }
 html {
@@ -95,9 +103,8 @@ html {
     color: black;
     text-decoration: none;
  
-    width: 70px;
     text-align: center;
-    font-size: medium;
+
 }
 #cont:active{
      background-color: grey;
