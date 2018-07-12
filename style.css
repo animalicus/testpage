@@ -12,8 +12,8 @@
         overflow-y: visible;
     }
     #cont{
-    width: 140;
-    font-size: x-large;
+    width: 140px;
+    font-size: xx-large;
     }
 }
 @media screen and (orientation:landscape) {
